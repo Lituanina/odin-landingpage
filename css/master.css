@@ -1,0 +1,150 @@
+:root {
+
+  --green: rgba(0, 51, 0, 1);
+  --pale-blue: rgb(225, 230, 247);
+  --white: rgb(255, 255, 253);
+
+}
+
+* {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: sans-serif;
+
+
+}
+
+/* GENERAL STYLES */
+
+body {
+  background-color: var(--white);
+}
+
+.primary, footer {
+  background-color: var(--green);
+  color: var(--white);
+
+}
+
+.secondary {
+  background-color: var(--pale-blue);
+}
+
+.neutral {
+  background-color: ;
+}
+
+
+.hero-button {
+  background-color: rgb(3, 162, 4);
+  border-radius: 8px;
+  width: 85px;
+  padding: 5px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* UTILITIES */
+
+.center {
+  margin: auto;
+  justify-content: center;
+}
+
+
+/* HEADER + HERO */
+
+.primary {
+  padding: 2rem 20rem 5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+header {
+  margin-bottom: 5rem;
+    flex-direction: row;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+}
+
+.hero {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-text {
+  flex-direction: column;
+  max-width: 55ch;
+  margin-right: 2rem;
+}
+
+
+.hero img {
+  width: 550px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+
+}
+
+/* CARDS */
+
+.card-heading {
+  margin-bottom: 3rem;
+}
+.card-container {
+  flex-direction: row;
+}
+
+.card {
+  margin: 1rem;
+  max-width: 20ch;
+  text-align: center;
+  width: 200px;
+  padding: 2px;
+  margin: 4rem;
+  border: black solid 3px;
+
+}
+
+.card img,
+.card svg {
+  margin: auto;
+  width: 120px;
+  height: 125px;
+  object-fit: cover;
+  padding-bottom: 1rem;
+}
+
+svg {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* TYPOGRAPHY */
+
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
