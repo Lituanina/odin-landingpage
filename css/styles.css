@@ -25,7 +25,7 @@
 .body, .hero, header, ul, .hero-subsection,
 .hero-text, .information, .card-container,
 .card, .modal, .modal-content, .modal-text, figure, figcaption,
-.quote, footer  {
+.quote, .button, footer  {
     display: flex;
 }
 
